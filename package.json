@@ -1,8 +1,8 @@
 {
   "author": "Edward Hotchkiss <e@ingk.com>",
   "name": "version",
-  "description": "NodeJS package.json version number display (wherever)",
-  "version": "0.0.0",
+  "description": "NodeJS package.json version number fetcher",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/edwardhotchkiss/version.git"
