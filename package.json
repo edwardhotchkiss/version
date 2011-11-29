@@ -1,0 +1,24 @@
+{
+  "author": "Edward Hotchkiss <e@ingk.com>",
+  "name": "version",
+  "description": "NodeJS package.json version number display (wherever)",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/edwardhotchkiss/version.git"
+  },
+  "keywords": ["version", "package", "json", "display", "number"],
+  "main": "./lib/version",
+  "engines":{
+    "node":">= 0.4.11 < 0.7.0"
+  },
+  "dependencies": {
+  },
+  "devDependencies":{
+    "vows":"0.5.13",
+    "should":"0.3.2"
+  },
+  "scripts": {
+    "test": "vows test/*.test.js --spec"
+  }
+}
