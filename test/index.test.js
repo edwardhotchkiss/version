@@ -9,21 +9,14 @@ vows.describe("General Module Tests").addBatch({
     topic:function(){ 
       return version;
     },
-    "short should be an object":function(topic) {
-      assert.equal(typeof(version), "object");
-    }
-  },
-  "when evaluating version.fetch":{
-    topic:function(){ 
-      return version.fetch;
-    },
-    "version.fetch should be a functon":function(topic) {
+    "version should be an object and version.fetch and should be a function":function(topic) {
+      assert.equal(typeof(version), "function");
       assert.equal(typeof(version.fetch), "function");
     }
   },
   "when fetching this packages version (by using .fetch without two parameters":{
     topic:function(){ 
-      version.fetch(this.callback);
+      version.fetch("version", this.callback);
     },
     "we should receive no error back":function(error, version) {
       assert.equal(error, null);
