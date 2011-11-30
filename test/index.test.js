@@ -10,16 +10,18 @@ vows.describe("General Module Tests").addBatch({
       return version;
     },
     "version should be an object and version.fetch and should be a function":function(topic) {
-      assert.equal(typeof(version), "function");
+      assert.equal(typeof(version), "object");
       assert.equal(typeof(version.fetch), "function");
     }
   },
-  "when fetching this packages version (by using .fetch without two parameters":{
+  "when fetching this packages version without any other formal parameters":{
     topic:function(){ 
       version.fetch("version", this.callback);
     },
-    "we should receive no error back":function(error, version) {
+    "we should receive no error back and receive a version in string format":function(error, version) {
       assert.equal(error, null);
+      assert.notEqual(version, null);
+      assert.equal(typeof(version), "string");
     }
   }
 }).export(module);
