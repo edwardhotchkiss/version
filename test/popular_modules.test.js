@@ -32,4 +32,19 @@ var popular = [
   "mongoose"
 ];
 
+popular.forEach(function(moduleName) {
+  vows.describe("Testing version.fetch() on: " + moduleName).addBatch({
+    "When fetching the Version number":{
+      topic:function(){ 
+        version.fetch(moduleName, this.callback);
+      },
+      "we should receive no error back and receive a version in string format":function(error, version) {
+        assert.equal(error, null);
+        assert.notEqual(version, null);
+        assert.equal(typeof(version), "string");
+      }
+    }
+  }).export(module);
+});
+
 /* EOF */
