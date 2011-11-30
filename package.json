@@ -1,6 +1,6 @@
 {
   "author": "Edward Hotchkiss <e@ingk.com>",
-  "name": "version",
+  "name": "Version",
   "description": "NodeJS package.json version number fetcher",
   "version": "0.0.1",
   "repository": {
