@@ -1,5 +1,5 @@
 {
-  "author": "Edward Hotchkiss <e@ingk.com>",
+  "author": "Edward Hotchkiss <edwardhotchkiss@me.com>",
   "name": "version",
   "description": "NodeJS package.json version number fetcher",
   "version": "0.0.4",
@@ -10,7 +10,7 @@
   "keywords": ["version", "package", "json", "display", "number"],
   "main": "./lib/version",
   "engines":{
-    "node":">= 0.4.11 < 0.9.0"
+    "node":">= 0.6.0"
   },
   "dependencies": {
     "request":"2.2.5"
