@@ -2,7 +2,7 @@
   "author": "Edward Hotchkiss <edwardhotchkiss@me.com>",
   "name": "version",
   "description": "NodeJS package.json version number fetcher",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/edwardhotchkiss/version.git"
