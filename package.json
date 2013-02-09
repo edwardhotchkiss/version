@@ -17,10 +17,10 @@
     "url":"http://github.com/edwardhotchkiss/short/LICENSE"
   }],
   "dependencies": {
-    "request":""
+    "request":"2.12.0"
   },
   "devDependencies":{
-    "vows":""
+    "vows":"0.7.0"
   },
   "scripts": {
     "test": "vows test/*.test.js --spec"
