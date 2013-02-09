@@ -1,4 +1,14 @@
 
+0.1.1 / 2013-02-09 
+==================
+
+  * [dist] version bump
+  * [contributors] added @jamielinux
+  * [deps] bumped vows and request to latest
+  * [node] bump to > 0.8.0
+  * Merge pull request #3 from jamielinux/master
+  * Declare license as MIT and add a copy of the license
+
 0.1.0 / 2012-06-20 
 ==================
 
