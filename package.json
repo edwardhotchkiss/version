@@ -3,7 +3,6 @@
   "name": "version",
   "description": "NodeJS package.json version number fetcher",
   "version": "0.1.0",
-  "license: "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/edwardhotchkiss/version.git"
@@ -11,13 +10,17 @@
   "keywords": ["version", "package", "json", "display", "number"],
   "main": "./lib/version",
   "engines":{
-    "node":">= 0.6.0"
+    "node":">= 0.8.0"
   },
+  "licenses":[{
+    "type":"MIT",
+    "url":"http://github.com/edwardhotchkiss/short/LICENSE"
+  }],
   "dependencies": {
-    "request":"2.9.202"
+    "request":""
   },
   "devDependencies":{
-    "vows":"0.5.13"
+    "vows":""
   },
   "scripts": {
     "test": "vows test/*.test.js --spec"
