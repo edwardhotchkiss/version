@@ -5,7 +5,8 @@
   "version": "0.1.1",
   "contributors":[
     { "name": "Edward Hotchkiss", "email": "edwardhotchkiss@me.com" },
-    { "name": "Jamie Nguyen", "github": "https://github.com/jamielinux" }
+    { "name": "Jamie Nguyen", "github": "https://github.com/jamielinux" },
+    { "name": "Juho Vepsäläinen", "github" : "https://github.com/bebraw" }
   ],
   "repository": {
     "type": "git",
