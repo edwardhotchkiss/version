@@ -1,4 +1,19 @@
 
+0.1.2 / 2013-06-27 
+==================
+
+ * [dist] version bump
+ * [minor] whitespace
+ * [minor] code format
+ * [examples] reference src vs live version
+ * [minor] whitespace
+ * [speed] removed extraneous fn call
+ * [minor] stylization of github flavor markdown
+ * [minor] whitespace
+ * [contributors] added @bebraw
+ * Merge pull request #4 from bebraw/master
+ * Fetch version without failing
+
 0.1.1 / 2013-02-09 
 ==================
 
