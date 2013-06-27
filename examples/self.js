@@ -1,9 +1,10 @@
 
-/*
-  fetch version # of current package
-*/
+/**
+ * @example self
+ * @description get version of active package
+ */
 
-var version = require('version');
+var version = require('../lib/version');
 
 version.fetch(function(error, version) {
   if (error) {

@@ -1,10 +1,10 @@
 
-/*
-  basic `version` example
-  fetch current version of express  
-*/
+/**
+ * @example basic
+ * @description fetch current version of express  
+ */
 
-var version = require('version');
+var version = require('../lib/version');
 
 version.fetch('express', function(error, version) {
   if (error) {
