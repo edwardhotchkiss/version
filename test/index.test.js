@@ -1,7 +1,7 @@
 
 /**
  * @tests vows
- **/
+ */
 
 var vows = require('vows')
   , assert = require('assert')
