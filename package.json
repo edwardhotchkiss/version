@@ -2,7 +2,7 @@
   "name": "version",
   "author": "Edward Hotchkiss <edwardhotchkiss@me.com>",
   "description": "NodeJS package.json version number fetcher",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "contributors":[
     { "name": "Edward Hotchkiss", "email": "edwardhotchkiss@me.com" },
     { "name": "Jamie Nguyen", "github": "https://github.com/jamielinux" },
