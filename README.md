@@ -52,3 +52,7 @@ version.fetch(function(error, version) {
   };
 });
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/edwardhotchkiss/version/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
